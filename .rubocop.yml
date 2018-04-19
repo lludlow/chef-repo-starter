@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - configs/*
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/HashSyntax:
+  Exclude:
+    - lib/tasks/*
