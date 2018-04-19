@@ -2,7 +2,6 @@
 #
 # data_bag_helpers.rb - Helper methods for working with data bags files
 #
-require 'chef/knife/data_bag_list'
 
 def data_bag_dirs(dir)
   Dir.entries(dir).select do |d|
